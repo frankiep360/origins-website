@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <title>Origins - Art History</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="Index.html" class="heading-3">Home</a>
+        <a href="aboutUs.html" class="heading-3">About Us</a>
+        <a href="postImpressionism.html" class="heading-3">Post-Impressionism</a>
+        <a href="surrealism.html" class="heading-3">Surrealism</a>
+        <a href="popArt.html" class="heading-3">Pop Art</a>
+    </div>
+        <div id="heroArea">
+            <img src="Untitled-1.png" id="Right">
+            <div id="Left">
+                <div id="LeftContent">
+                    <div id="menu" onclick="openNav()">
+                        <img src="hamburger.png">
+                        <p>Menu</p>
+                    </div>
+                    <h1 class="heading heading-1">Origins</h1>
+                    <h2 class="heading heading-2">The number one place to learn about periods of art and the innovative artists behind them</h2>
+                    <h3 class="heading heading-3">Curated by people Like you for you!</h2>
+                    <a href="aboutUs.html">
+                      <button class="primary-button">About Us</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="horizontalContainer" class="hideScroll">
+            <div class="section">
+              <div class="sectionHeading" id="scrollDown">
+              <div>
+                <h2 class="heading-2">Post-Impressionism</h2>
+                <h3 class="heading-3">1886-1905</h3>
+                </div>
+                <div class="sectionDescription">
+                  <p>This is just some test text to test this section about the movement. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corporis exercitationem, delectus, dicta nisi tempora similique doloremque voluptate enim ea labore numquam id expedita et odit! Consequuntur dolorum quia delectus!</p>
+                    <a href="postImpressionism.html">
+                        <button class="primary-button">Learn More.</button>
+                    </a>
+                </div>
+              </div>
+              <img src="Photos/postImpressionBW.png" onmouseover="changePostImpressionismImage(1,this)" onmouseout="changePostImpressionismImage(2,this)">
+            </div>
+            <div class="section">
+              <div class="sectionHeading">
+                <h2 class="heading-2">Surrealism</h2>
+                <h3 class="heading-3">1924-1966</h3>
+                <div class="sectionDescription">
+                  <p>This is just some test text to test this section about the movement. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corporis exercitationem, delectus, dicta nisi tempora similique doloremque voluptate enim ea labore numquam id expedita et odit! Consequuntur dolorum quia delectus!</p>
+                    <a href="surrealism.html">
+                        <button class="primary-button">Learn More.</button>
+                    </a>
+                </div>
+              </div>
+              <img src="Photos/surrealismEdited.png" onmouseover="changeSurrealismImage(1,this)" onmouseout="changeSurrealismImage(2,this)">
+            </div>
+            <div class="section">
+              <div class="sectionHeading">
+                <h2 class="heading-2">Pop Art</h2>
+                <h3 class="heading-3">1950s-1980s</h3>
+                <div class="sectionDescription">
+                  <p>This is just some test text to test this section about the movement. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum corporis exercitationem, delectus, dicta nisi tempora similique doloremque voluptate enim ea labore numquam id expedita et odit! Consequuntur dolorum quia delectus!</p>
+                    <a href="popArt.html">
+                        <button class="primary-button">Learn More.</button>
+                    </a>
+                </div>
+              </div>
+              <img src="Photos/popArtBW.png"onmouseover="changePopArtImage(1,this)" onmouseout="changePopArtImage(2,this)">
+            </div>
+        </div>
+        <div id="scrollButtons">
+            <button id="leftButton" type="button"><img src="Left Chevron Icon.png"></button>
+            <button id="rightButton" type="button"><img src="Arrow Right Icon.png"></button>
+        </div>
+        <div class="footer">
+            <div class="footerInfo">
+                <p>Contact us!</p>
+                <p>About Us</p>
+                <p>Links</p>
+                <p>Sitemap</p>
+            </div>
+            <div class="footerForm">
+                <h2 class="heading-2">Subscribe to our Newsletter</h2>
+                <p class="body">Subscribe for occasional contact from us, from newest additions to our website to exclusive updates! </p>
+                <input type="text" placeholder="Name" name="name" required>
+                <input type="text" placeholder="Email address" name="mail" required class="">                    
+                <input type="submit" value="Subscribe">
+                <p class="caption">All rights Reserved by Frankie Phillips 2024</p>
+            </div>
+        </div>
+</body>
+</html>
