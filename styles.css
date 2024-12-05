@@ -94,7 +94,7 @@ body{
 .hideScroll::-webkit-scrollbar {
     display: none;
 }
-/*Styles for Columns*/
+/*Styles for Artist Columns*/
 .section {
     width: 90%;
     max-width: 1480px;
@@ -104,18 +104,29 @@ body{
 .columns {
     display: flex;
     flex-wrap: wrap; /*flex-wrap to ensure responsive wrapping*/
-    gap: 20px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: left;
 }
 .column {
     background: #EDECE8;
     padding: 20px;
     border: 1px solid #ccc;
-    text-align: center;
+    text-align: left;
     flex: 1; /* Allows columns to expand evenly */
 }
-.section-four .columns .column {
-    flex: 0 0 29%; /* Three columns, each 30% of the row */
+.columnLeft{
+    width: 346.3165px;
+}
+.columnLeft h2{
+    margin: 0px;
+}
+.columnRight{
+    width: 346.3165px;
+    height: 554.359px;
+    float: right;
+}
+.section-two .columns .column {
+    flex: 0 0 46.8%; /* Three columns, each 50% of the row */
 }
 
 /* The side navigation menu */
