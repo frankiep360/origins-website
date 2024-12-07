@@ -105,28 +105,40 @@ body{
     display: flex;
     flex-wrap: wrap; /*flex-wrap to ensure responsive wrapping*/
     gap: 10px;
-    justify-content: left;
 }
 .column {
     background: #EDECE8;
     padding: 20px;
-    border: 1px solid #ccc;
-    text-align: left;
     flex: 1; /* Allows columns to expand evenly */
+    float: right;
+    vertical-align: top;
 }
-.columnLeft{
-    width: 346.3165px;
-}
-.columnLeft h2{
+.column h2{
     margin: 0px;
 }
-.columnRight{
-    width: 346.3165px;
-    height: 554.359px;
-    float: right;
+.column p{
+    margin: 0px;
 }
-.section-two .columns .column {
-    flex: 0 0 46.8%; /* Three columns, each 50% of the row */
+.columnLeft img{
+    max-width: 100%;
+    padding-top: 20px;
+}
+.columnLeft{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.columnRight{
+    width: 336.31px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 73px;
+}
+.section-one .columns .column {
+    flex: 0 0 46.8%; /* Two columns, each 50% of the row */
+}
+.section-two .columns .column{
+    flex: 0 0 100%;
 }
 
 /* The side navigation menu */
@@ -192,7 +204,10 @@ body{
     padding-top: 100px;
     margin: 0px;
 }
-#LeftContent h1,h2{
+#LeftContent h1{
+    max-width: 500px;
+}
+#LeftContent h2{
     max-width: 500px;
 }
 #LeftContent h3{
