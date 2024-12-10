@@ -19,14 +19,6 @@ body{
     font-style: normal;
     color: #1B1B19;
 }
-.body{
-    font-size: 16px;
-    font-family: "Manrope", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    color: #1B1B19;
-}
 /*Base heading style*/
 .heading{
     color: #3F513A;
@@ -46,10 +38,22 @@ body{
     font-size: 39px;
     font-weight: 300;
 }
+.heading-2-altwhite{
+    font-family: "Manrope", sans-serif;
+    font-size: 39px;
+    font-weight: 300;
+    color: #EDECE8;
+}
 .heading-3{
     font-family: "Manrope", sans-serif;
     font-size: 25px;
     font-weight: 300;
+}
+.heading-3-altgreen{
+    font-family: "Manrope", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    color: #C2DC59;
 }
 /*Additional styles*/
 .caption{
@@ -57,6 +61,14 @@ body{
 }
 .breaks{
     font-weight: 900;
+}
+.body-text-altwhite{
+    font-size: 16px;
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #EDECE8;
 }
 
 /*Button Styles*/
@@ -279,9 +291,23 @@ body{
     text-align: right;
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 30px;
+    background-color: #3F513A;
+}
+.footerInfo p{
+    color: #EDECE8;
 }
 .footerForm{
     padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #3F513A;
+}
+.footerForm h2{
+    margin: 0px;
+}
+.footerform p{
+    color: #EDECE8;
 }
 .footerForm label{
     padding-right: 5px;
