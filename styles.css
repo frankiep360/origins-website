@@ -37,6 +37,7 @@ body{
     font-family: "Manrope", sans-serif;
     font-size: 39px;
     font-weight: 300;
+    margin: 0px;
 }
 .heading-2-altwhite{
     font-family: "Manrope", sans-serif;
@@ -58,6 +59,10 @@ body{
 /*Additional styles*/
 .caption{
     font-size: 12px;
+}
+.caption-altwhite{
+    font-size: 12px;
+    color: #EDECE8;
 }
 .breaks{
     font-weight: 900;
@@ -129,7 +134,8 @@ body{
     margin: 0px;
 }
 .column p{
-    margin: 0px;
+    margin-bottom: 10px;
+    margin-top:0px ;
 }
 .columnLeft img{
     max-width: 100%;
@@ -214,24 +220,30 @@ body{
 #LeftContent{
     padding-left: 100px;
     padding-top: 100px;
+    padding-bottom: 100px;
     margin: 0px;
 }
 #LeftContent h1{
     max-width: 500px;
+    padding-top: 30px;
 }
 #LeftContent h2{
     max-width: 500px;
+    padding-top: 30px;
 }
 #LeftContent h3{
     max-width: 250px;
-    padding-top: 62px;
-    padding-bottom: 64px;
+    padding-top: 60px;
+    padding-bottom: 105px;
 }
 #menu img{
     width: 24px;
     height: 24px;
     float: left;
     padding-right: 10px;
+}
+#menu p{
+    margin: 0px;
 }
 
 
@@ -240,6 +252,7 @@ body{
     height: 95vh;
     display: flex;
     overflow-x: scroll;
+    overflow-y: hidden;
     scroll-behavior: smooth;
     margin: 0px;
 }
@@ -257,9 +270,7 @@ body{
 }
 .sectionHeading{
     margin: 0%;
-    padding-top: 100px;
-    padding-left: 125px;
-    padding-right: 125px;
+    padding: 100px 157.5px 100px 0px;
     float: right;
     margin: 0px;
 }
@@ -269,6 +280,7 @@ body{
     color: #1B1B19;
     margin: 0%;
     padding-right: 125px;
+    line-height: normal;
 }
 #scrollButtons{
     height: 5vh;
