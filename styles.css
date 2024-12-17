@@ -115,7 +115,7 @@ body{
 .section {
     width: 90%;
     max-width: 1480px;
-    margin: 100px;
+    padding: 10px 100px 0px 100px;
     background: #fff;
 }
 .columns {
@@ -156,7 +156,7 @@ body{
     flex: 0 0 46.8%; /* Two columns, each 50% of the row */
 }
 .section-two .columns .column{
-    flex: 0 0 100%;
+    flex: 0 0 97%;
 }
 
 /* The side navigation menu */
@@ -329,17 +329,42 @@ body{
 
 /*Styles For About Us Page*/
 .secondaryHeader{
-    max-width: 1600px;
+    max-width: 100vw;
     max-height: 50vh;
     padding-left: 100px;
-    padding-top: 100px;
+    padding-top: 99px;
+    padding-bottom: 99px;
     background-color: #EDECE8;
 }
 .secondaryHeader h1{
-    padding-bottom: 100px;
-    max-width: 1680px;
+    padding-top: 2px;
 }
 #Information{
     margin: 100px 0 0 100px;
     max-width: 1480px;
+}
+.learnMoreLeft{
+    width: 70%;
+    float: left;
+}
+.columnContainer{
+    column-gap: 40px;
+}
+.learnMoreLeft iframe{
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+}
+.learnMoreRight{
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+}
+.learnMoreRight p{
+    width: 99%;
+    padding-left: 10px;
+}
+.columnContainer{
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
