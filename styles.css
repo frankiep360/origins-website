@@ -339,6 +339,14 @@ body{
     height: 500px;
     padding-top: 20px;
 }
+.learnMoreLeftPodcast{
+    width: 70%;
+    float: left;
+}
+.learnMoreLeftPodcast iframe{
+    width: 100%;
+    padding-top: 20px;
+}
 .learnMoreRight{
     width: 30%;
     float: right;
