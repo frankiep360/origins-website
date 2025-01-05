@@ -193,35 +193,26 @@ body{
     font-size: 36px;
     margin-left: 50px;
 }
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main {
-    transition: margin-left .5s;
-    padding: 20px;
-}
 
 
 
 #heroArea{
     height: 100vh;
-    margin: 0px;
 }
 #Left{
     height: 100vh;
     width: 50%;
     background-color: #EDECE8;
     float:left;
-    margin: 0px;
 }
 #Right{
     width: 50%;
     height: 100vh;
-    margin: 0px;
 }
 #LeftContent{
     padding-left: 100px;
     padding-top: 100px;
     padding-bottom: 100px;
-    margin: 0px;
 }
 #LeftContent h1{
     max-width: 500px;
@@ -242,9 +233,6 @@ body{
     float: left;
     padding-right: 10px;
 }
-#menu p{
-    margin: 0px;
-}
 
 
 #horizontalContainer{
@@ -254,7 +242,6 @@ body{
     overflow-x: scroll;
     overflow-y: hidden;
     scroll-behavior: smooth;
-    margin: 0px;
 }
 #horizontalContainer .section{
     width: 1500px;
@@ -262,7 +249,6 @@ body{
     line-height: 100%;
     background-color: #EDECE8;
     padding: 0px;
-    margin: 0px;
 }
 #horizontalContainer .section img{
     float: left;
@@ -273,7 +259,6 @@ body{
     margin: 0%;
     padding: 100px 157.5px 100px 0px;
     float: right;
-    margin: 0px;
 }
 .sectionDescription{
     width: 400px;
@@ -290,13 +275,13 @@ body{
 #scrollButtons button{
     height: 4vh;
     width: 50px;
-    margin: 0px;
     border-style: none;
     background-color:#1B1B19;
 }
 #scrollButtons button img{
     height: 5vh;
 }
+/*Footer Styles*/
 .footerInfo{
     max-width: 500px;
     height: 200px;
