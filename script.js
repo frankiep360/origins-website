@@ -1,6 +1,6 @@
+/*Scroll Buttons*/
 const buttonLeft = document.getElementById('leftButton')
 const buttonRight = document.getElementById('rightButton')
-
 buttonLeft.onclick = function (){ //Scroll Left with -
     document.getElementById('horizontalContainer').scrollLeft -= 1680
 };
@@ -8,6 +8,7 @@ buttonRight.onclick = function (){ //Scroll right with +
     document.getElementById('horizontalContainer').scrollLeft += 1680
 };
 
+/*Functions to chnage Image on Hover*/
 function changePostImpressionismImage(x,image){
   if(x == 1)
   {
@@ -38,6 +39,7 @@ function changePopArtImage(z,image){
       image.src="Photos/popArtBW.png";
     }
 }
+
 /* Set the width of "mySidenav" to open/close */
 function openNav() 
 {

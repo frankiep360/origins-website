@@ -130,9 +130,7 @@ body{
     float: right;
     vertical-align: top;
 }
-.column h2{
-    margin: 0px;
-}
+
 .column p{
     margin-bottom: 10px;
     margin-top:0px ;
