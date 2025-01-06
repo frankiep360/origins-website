@@ -266,7 +266,7 @@ body{
     padding-right: 10px;
 }
 
-
+/*Styles For Horizontal Scroll Area*/
 #horizontalContainer{
     width: 100%;
     height: 95vh;
@@ -313,6 +313,7 @@ body{
 #scrollButtons button img{
     height: 5vh;
 }
+
 /*Footer Styles*/
 .footerInfo{
     max-width: 500px;
