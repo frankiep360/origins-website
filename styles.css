@@ -111,6 +111,7 @@ body{
 .hideScroll::-webkit-scrollbar {
     display: none;
 }
+
 /*Styles for Artist Columns*/
 .section {
     width: 100%;
@@ -155,6 +156,39 @@ body{
 }
 .section-two .columns .column{
     flex: 0 0 97%;
+}
+.learnMoreLeft{
+    width: 70%;
+    float: left;
+}
+.columnContainer{
+    column-gap: 40px;
+}
+.learnMoreLeft iframe{
+    width: 100%;
+    height: 500px;
+    padding-top: 20px;
+}
+.learnMoreLeftPodcast{
+    width: 70%;
+    float: left;
+}
+.learnMoreLeftPodcast iframe{
+    width: 100%;
+    padding-top: 20px;
+}
+.learnMoreRight{
+    width: 30%;
+    float: right;
+    padding-top: 20px;
+}
+.learnMoreRight p{
+    width: 99%;
+    padding-left: 10px;
+}
+.columnContainer{
+    padding-top: 90px;
+    padding-bottom: 100px;
 }
 
 /* The side navigation menu */
@@ -322,10 +356,6 @@ body{
 }
 .secondaryHeader h1{
     padding-top: 2px;
-}
-#Information{
-    margin: 100px 0 0 100px;
-    max-width: 1480px;
 }
 .learnMoreLeft{
     width: 70%;
